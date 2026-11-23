@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crush Mo Ko? 💘</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="hearts"></div>
+
+  <main class="card">
+    <!-- Step 1: name -->
+    <section id="step-name">
+      <h1>Hi! 👋</h1>
+      <p>Unsa imong name?</p>
+      <input id="name-input" type="text" placeholder="I-type imong name..." maxlength="30" autocomplete="off">
+      <button id="next-btn" class="btn yes">Next ➜</button>
+    </section>
+
+    <!-- Step 2: question -->
+    <section id="step-question" class="hidden">
+      <h1 id="question">Crush mo ko?</h1>
+      <div class="buttons">
+        <button id="yes-btn" class="btn yes">Yes 💖</button>
+        <button id="no-btn" class="btn no">No 💔</button>
+      </div>
+    </section>
+
+    <!-- Step 3: result -->
+    <section id="step-result" class="hidden">
+      <h1 id="result">I know you have a crush on me 😏</h1>
+      <p>Ako pud, <span class="small">joke lang. Or not? 😳</span></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
